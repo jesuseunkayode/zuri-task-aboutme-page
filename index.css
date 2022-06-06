@@ -11,7 +11,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-evenly;
-    color:blue;
+    color: #3333ff;
 }
 
 #menu-lists > li {
@@ -19,17 +19,78 @@
    list-style-type: none;
 }
 
+
+#menu-lists > li:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
 h1 {
     margin-top: 20px; 
     text-align: center;
     font-size: 500%;
     font-style: italic;
+    color: #3333ff;
 }
 
 #img-div {
     display: block;
      position: relative;
-     bottom:  128px;
+     bottom:  110px;
     margin-left: auto;
     margin-right: auto;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.25rem;
+    color: #666666;
+    position: absolute;
+    top: 460px;
+    margin: 0px 150px 0px 150px;
+}
+
+#personality {
+    display: flex;
+    position: relative;
+    top: 50px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lifestyle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 20%;
+    height: 130px;
+    background: linear-gradient(90deg,#3333ff, #2193b0 );
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.lifestyle:hover {
+    transform: scale(1.1);
+}
+
+.first-lifestyle {
+    width: 25%;
+    height: 130px;
+    line-height: 22px;
+}
+
+.second-lifestyle {
+    width: 25%;
+    height: 130px;
+    line-height: 22px;
+}
+
+ul, ol{
+    list-style-position: inside;
+    text-align: justify;
+    list-style-type: disc;
+    padding-left: 13px;
 }
