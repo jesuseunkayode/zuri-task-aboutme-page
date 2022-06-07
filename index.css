@@ -111,11 +111,11 @@ ul, ol{
 #contact-button {
     position:absolute;
     bottom: -160px;
-    right: 600px;
-    width: 10%;
+    right: 475px;
+    width: 25%;
     padding: 6px 0px 6px 0px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     background-color:#fff;
     color: #2193b0;
