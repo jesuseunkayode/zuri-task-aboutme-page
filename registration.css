@@ -30,6 +30,37 @@
     color: #2193b0;
 }
 
+h1 {
+    margin-bottom: 20px;
+    color: #2193b0;
+}
+
+#registration-div {
+    max-width: 40%;
+    margin: 20px auto 0;
+}
+
+
+input[type=text], input[type=phone], input[type=email], input[type=password]  {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #2193b0;
+    outline: none;
+}
+
+
+    
+
+
+
+
+
+
+
 
 
 
