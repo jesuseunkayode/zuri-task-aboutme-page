@@ -33,16 +33,27 @@
 h1 {
     margin-bottom: 20px;
     color: #2193b0;
+    text-align: center;
 }
 
 #registration-div {
     max-width: 30%;
     margin: 20px auto 0;
+    background-color:   #E9EBF5;
+    padding-left: 33px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
+  label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#666666;
+  }
 
-     #gender {
-    width: 30%;
+     #gender, #state {
+    width: 45%;
     box-sizing: border-box;
     padding: 5px;
     margin: 8px 0px 0px 15px;
@@ -51,9 +62,7 @@ h1 {
     border: 1px solid #2193b0;
 }
 
-/*  input[type=phone], input[type=email], input[type=password] */
-
-input[type=phone] {
+input[type=phone], #country {
     border: 1px solid #2193b0;
     box-sizing: border-box;
     padding: 5px;
@@ -63,28 +72,46 @@ input[type=phone] {
     outline: none;
 }   
 
-#country, #lname, #fname {
+ #lname, #fname, #email, #password, #confirm-password {
     border: 1px solid #2193b0;
     box-sizing: border-box;
     padding: 5px;
     margin: 8px 0;
     border-radius: 5px;
-    width: 70%;
+    width: 90%;
     outline: none;
 }
 
 #gendering {
     position: absolute;
-    top: 225px;
-    right: 657px;
+    top: 240px;
+    right: 632px;
+}
+
+#stated {
+    position: absolute;
+    top: 305px;
+    right: 648px;
 }
 
 
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #834BF2;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 8px;
+    width: 90%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
 
-
-
-
-
+button:hover {
+    background-color:#8c58f3;
+    cursor: pointer;
+}
 
 
 #kayode-footer {

@@ -12,7 +12,7 @@ main {
 }
 
 label {
-    color:#2193b0;
+    color: #666666;
 }
 
 #menu-lists {
@@ -48,7 +48,7 @@ label {
 }
 
 #contact-form {
-     background-color: #f2f2f2;
+     background-color: #E9EBF5;
      max-width: 45%;
      margin:  15px auto 0;
      padding: 20px;
@@ -84,7 +84,7 @@ input[type=text]:focus {
      padding: 16px 32px;
      margin: 10px 0px;
      cursor: pointer;
-     background-color:  #25a2c1;
+     background-color:  #834BF2;
      color: #fff;
      font-size: 20px;
      outline: none;
@@ -94,7 +94,7 @@ input[type=text]:focus {
 
 
 #contact-submit-button:hover {
-    background-color: #2193b0;
+    background-color: #8c58f3;
 }
 
 

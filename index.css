@@ -1,3 +1,6 @@
+/* main color (60%):#2193b0  secondary 30%: #E9EBF5, accent 10%: #834BF2 */
+
+
 * {
     padding: 0px;
     margin: 0px;
@@ -39,7 +42,7 @@ h1 {
 }
 
 #comma {
-    color:#063970;
+    color: #834BF2;
 }
 
 
@@ -83,7 +86,6 @@ p {
     padding-bottom: 3px;
 }
 
-/* #3333ff */
 .lifestyle:hover {
     transform: scale(1.1);
 }
@@ -118,13 +120,13 @@ ul, ol{
     border-radius: 10px;
     cursor: pointer;
     background-color:#fff;
-    color: #2193b0;
-    border: 1px solid #2193b0;
+    color: #834BF2;
+    border: 1px solid #834BF2;
     text-decoration: none;
 }
 
 #contact-button:hover {
-    background-color: #2193b0;
+    background-color: #8c58f3;
     color:#fff;
 }
 
