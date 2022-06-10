@@ -101,11 +101,18 @@ p {
     height: 135px;
     line-height: 22px;
 }
-
-ul, ol{
+ ol{
     list-style-position: inside;
     text-align: justify;
     list-style-type: disc;
+    padding-left: 13px;
+}
+
+
+ul {
+    list-style-position: inside;
+    text-align: justify;
+    list-style-type: square;
     padding-left: 13px;
 }
 
