@@ -92,3 +92,18 @@ button:hover {
     position: absolute;
     bottom: 0;
 }
+
+@media (min-width: 360px) and (max-width: 640px) {
+
+    #kayode-footer {
+        top: 553px;
+    }
+
+    #login-div {
+        max-width: 85%;
+    }
+
+    header {
+        margin-top: 15px;
+    }
+}

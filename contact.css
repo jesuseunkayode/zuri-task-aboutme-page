@@ -218,7 +218,19 @@ textarea:focus {
     header {
         margin-top: 18px;
     }
+
+        #kayode-footer {
+            position: absolute;
+            bottom: -145px;
+        }
+
+        main {
+            height: 120vh;
+        }
 }
+
+
+
 
 @media (min-width: 412px) and (max-width: 915px){
     #contact-form {
