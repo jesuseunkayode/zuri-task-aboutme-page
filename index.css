@@ -54,6 +54,7 @@ h1 {
      margin-right: auto;
 }
 
+
 p {
     text-align: justify;
     font-size: 1.25rem;
@@ -152,19 +153,47 @@ ul {
 
 @media (min-width: 360px) and (max-width: 640px) {
      #img-div {
-        bottom: 80px;
-        right: 50px;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 290px;
+        left: 35px;
+        max-width: 90%;
      }
      
      p {
-        font-size: 1.1rem;
-        text-align: center;
-        top: 680px;
-        margin: 0px 10px 0px 10px;
+        font-size: 1rem;
+        text-align: justify;
+        top: 350px;
+        margin: 0px 20px 0px 20px;
 }
-     }
 
      #kayode-footer {
-        bottom: 200;
+        bottom: -500px;
+     }
+
+     #contact-button {
+        right: 16px;
+        bottom: -435px;
+        width: 90%;
+     } 
+
+    #personality {
+        flex-direction: column;
+        justify-content: center;
+        top: 390px;
+        margin-left: 5px;
+     }
+     
+     .lifestyle {
+        width: 90%;
+        margin-bottom: 15px;
+     }
+
+     h1 {
+        font-size: 280%;
+     }
+
+     main {
+        height: 178vh;
      }
 }
